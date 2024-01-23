@@ -1,9 +1,9 @@
 ---
 title: "Post With Plot"
 author: "Shuai Wang"
-date: "2024-01-20"
+date: "2023-01-20"
 categories: [code, analysis, plot]
-image: "image.png"
+#image: "image.png"
 ---
 
 This is a post with plot.

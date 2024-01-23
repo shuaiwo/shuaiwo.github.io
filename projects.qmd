@@ -4,21 +4,33 @@ listing:
   contents:
     - "posts/postwithplot"
     - title: "Geospatial Risk Prediction in Philadelphia"
-      #image: "blog/assets/FILE.jpg"
+      #image: "projects/tracktrend.png"
       subtitle: "SUBTITLE"
       description: ""
       date: "2023-07-19"
-      reading-time: 10
-      categories: [X, Y, Z]
+      #categories: [X, Y, Z]
       path: "projects/Geospatial Risk Prediction in Philadelphia.html"
-    - title: "THE TITLE2"
+    - title: "Home Repair Tax Credit Program"
       #image: "blog/assets/FILE.jpg"
       subtitle: "SUBTITLE"
       description: ""
       date: "2023-07-19"
-      reading-time: 10
-      categories: [X, Y, Z]
-      path: https://example.org
+      #categories: [X, Y, Z]
+      path: projects/Home Repair Tax Credit Program.html
+    - title: "Indego Bike Share Prediction in Philadelphia"
+      #image: "blog/assets/FILE.jpg"
+      subtitle: "SUBTITLE"
+      description: ""
+      date: "2023-07-19"
+      #categories: [X, Y, Z]
+      path: projects/Indego Bike Share Prediction in Philadelphia.html
+    - title: "Predicting NJ Transit Train Delays"
+      #image: "blog/assets/FILE.jpg"
+      subtitle: "SUBTITLE"
+      description: ""
+      date: "2023-12-15"
+      #categories: [X, Y, Z]
+      path: projects/Predicting NJ Transit Train Delays.html
   sort: "date desc"
   type: grid
   categories: true
