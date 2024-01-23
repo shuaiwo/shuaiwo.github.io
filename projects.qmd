@@ -1,0 +1,29 @@
+---
+title: "Projects"
+listing:
+  contents:
+    #- "posts/postwithplot"
+    - path: https://example.org
+      title: "THE TITLE"
+      #image: "blog/assets/FILE.jpg"
+      subtitle: "SUBTITLE"
+      description: ""
+      date: "2023-07-19"
+      reading-time: 10
+      categories: [X, Y, Z]
+    - path: https://example.org
+      title: "THE TITLE2"
+      #image: "blog/assets/FILE.jpg"
+      subtitle: "SUBTITLE"
+      description: ""
+      date: "2023-07-19"
+      reading-time: 10
+      categories: [X, Y, Z]
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---

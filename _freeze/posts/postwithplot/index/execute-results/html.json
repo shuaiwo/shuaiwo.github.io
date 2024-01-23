@@ -1,0 +1,16 @@
+{
+  "hash": "14a4d1431f7c5ae863f727f9c0cc1b32",
+  "result": {
+    "markdown": "---\ntitle: \"Post With Plot\"\nauthor: \"Shuai Wang\"\ndate: \"2024-01-20\"\ncategories: [code, analysis, plot]\nimage: \"image.png\"\n---\n\n\nThis is a post with plot.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(mtcars$mpg)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
