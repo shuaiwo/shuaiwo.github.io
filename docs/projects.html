@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-path','listing-title','listing-subtitle','listing-description','listing-date','listing-reading-time','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-path","listing-title","listing-subtitle","listing-description","listing-date","listing-reading-time","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -166,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="X">X <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y">Y <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Z">Z <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="X">X <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y">Y <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Z">Z <span class="quarto-category-count">(2)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="plot">plot <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -179,19 +179,49 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="X,Y,Z" data-listing-date-sort="1689739200000" data-listing-reading-time-sort="10">
-<a href="https://example.org" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="code,analysis,plot" data-listing-date-sort="1705726800000" data-listing-file-modified-sort="1705888882475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/postwithplot/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/postwithplot/image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Post With Plot
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
+code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('plot'); return false;">
+plot
+</div>
+</div>
+<div class="card-text listing-description">
+This is a post with plot.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Shuai Wang
+</div>
+<div class="listing-date">
+Jan 20, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="X,Y,Z" data-listing-date-sort="1689739200000" data-listing-reading-time-sort="10">
+<a href="projects/Geospatial Risk Prediction in Philadelphia.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-THE TITLE
+Geospatial Risk Prediction in Philadelphia
 </h5>
-<div class="card-subtitle listing-subtitle">
-SUBTITLE
-</div>
-<div class="listing-reading-time card-text text-muted">
-10 min
-</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('X'); return false;">
 X
@@ -211,35 +241,17 @@ Z
 Jul 19, 2023
 </div>
 </div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-path
-</td>
-<td class="path">
-https://example.org
-</td>
-</tr>
-
-</tbody></table>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="X,Y,Z" data-listing-date-sort="1689739200000" data-listing-reading-time-sort="10">
+<div class="g-col-1" data-index="2" data-categories="X,Y,Z" data-listing-date-sort="1689739200000" data-listing-reading-time-sort="10">
 <a href="https://example.org" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 THE TITLE2
 </h5>
-<div class="card-subtitle listing-subtitle">
-SUBTITLE
-</div>
-<div class="listing-reading-time card-text text-muted">
-10 min
-</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('X'); return false;">
 X
@@ -259,18 +271,6 @@ Z
 Jul 19, 2023
 </div>
 </div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-path
-</td>
-<td class="path">
-https://example.org
-</td>
-</tr>
-
-</tbody></table>
 </div>
 </div>
 </a>

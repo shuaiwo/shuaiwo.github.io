@@ -56,17 +56,17 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "THE TITLE\n\n\nSUBTITLE\n\n\n10 min\n\n\n\nX\n\n\nY\n\n\nZ\n\n\n\n\n\n\n\nJul 19, 2023\n\n\n\n\n\n\npath\n\n\nhttps://example.org\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHE TITLE2\n\n\nSUBTITLE\n\n\n10 min\n\n\n\nX\n\n\nY\n\n\nZ\n\n\n\n\n\n\n\nJul 19, 2023\n\n\n\n\n\n\npath\n\n\nhttps://example.org\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hi, I’m Shuai Wang 👋",
     "section": "",
     "text": "I’m a Master’s student studying City Planning and Spatial Analytics at the University of Pennsylvania. I’m passionate about leveraging the power of data science and technology for sustainable development and business growth. My current research focuses on urban technology, transportation and community development.\nPrior to Penn, I worked as a Transport Planning and GIS Intern and gained my Bachelor’s degree in Urban Planning at the University of Liverpool, UK.\nI love travelling, and backpacked across 11 countries in Europe as my graduation trip. Seeing first hand how cultures, lifestyles, food and languages spark and interact across different places, I’m more determined to reveal the hidden dynamics that drive the development behind the development of cities, businesses and human behaviors."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Post With Plot\n\n\n\ncode\n\n\nanalysis\n\n\nplot\n\n\n\n\n\n\n\nShuai Wang\n\n\nJan 20, 2024\n\n\n\n\n\n\n\n\n\n\n\nGeospatial Risk Prediction in Philadelphia\n\n\n\nX\n\n\nY\n\n\nZ\n\n\n\n\n\n\n\nJul 19, 2023\n\n\n\n\n\n\n\n\n\n\n\nTHE TITLE2\n\n\n\nX\n\n\nY\n\n\nZ\n\n\n\n\n\n\n\nJul 19, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

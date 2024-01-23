@@ -2,23 +2,23 @@
 title: "Projects"
 listing:
   contents:
-    #- "posts/postwithplot"
-    - path: https://example.org
-      title: "THE TITLE"
+    - "posts/postwithplot"
+    - title: "Geospatial Risk Prediction in Philadelphia"
       #image: "blog/assets/FILE.jpg"
       subtitle: "SUBTITLE"
       description: ""
       date: "2023-07-19"
       reading-time: 10
       categories: [X, Y, Z]
-    - path: https://example.org
-      title: "THE TITLE2"
+      path: "projects/Geospatial Risk Prediction in Philadelphia.html"
+    - title: "THE TITLE2"
       #image: "blog/assets/FILE.jpg"
       subtitle: "SUBTITLE"
       description: ""
       date: "2023-07-19"
       reading-time: 10
       categories: [X, Y, Z]
+      path: https://example.org
   sort: "date desc"
   type: grid
   categories: true
