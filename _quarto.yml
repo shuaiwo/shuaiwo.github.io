@@ -18,8 +18,8 @@ website:
         href: resume.qmd
       
     right:
-      - icon: github
-        href: https://github.com/shuaiwo
+      #- icon: github
+        #href: https://github.com/shuaiwo
       - icon: linkedin
         href: https://www.linkedin.com/in/shuaiws
         

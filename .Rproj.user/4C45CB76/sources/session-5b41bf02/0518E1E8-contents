@@ -9,9 +9,9 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/shuaiws
-    - icon: github
-      text: Github
-      href: https://github.com/shuaiwo
+    #- icon: github
+     # text: Github
+      #href: https://github.com/shuaiwo
     #- icon: envelope
       #text: Contact me
       #href: 
