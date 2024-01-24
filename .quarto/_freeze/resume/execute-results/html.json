@@ -1,0 +1,14 @@
+{
+  "hash": "488349d8db72842d80f68be143a7bd45",
+  "result": {
+    "markdown": "---\ntitle: \"Shuai Wang\"\nsubtitle: \"Geospatial Data Analytics & City Planning\"\nformat: html\n---\n\n\n\n::: {.cell .column-screen layout-align=\"center\"}\n\n:::\n\n\n\n## Education\n\n#### **University of Pennsylvania**,  *Philadelphia, PA (Aug 2023 – Present)*\n**Master of City Planning in Spatial Analytics**\n\n-   Relevant courses: Geospatial Cloud Computing (SQL), Machine Learning in Remote Sensing (Python), Public Policy Analytics (R), Quantitative Analysis Methods (R)\n\n\n#### **University of Liverpool**,  *Liverpool, UK*\n**Bachelor of Arts in Urban Planning**\n\n-   Relevant courses: Geospatial Data Science (Python), Urban & Environmental Economics\n\n\n## Professional Experience\n\n#### **Transport Planning and GIS Intern**,  *Liverpool, UK (Jun - Sep 2022)*\n**Mott Macdonald**\n\n#### **Urban Planning and Design Intern**,  *Suzhou, China (Jul - Aug 2021)*\n**Suzhou Planning & Design Research Institute**\n\n\n## Research Experience\n\n#### **Geospatial Research Assistant**,  *Philadelphia, PA (Dec 2023 - Present)*\n**Business and Conflict Barometer Initiative, The Wharton School**\n\n#### **Undergraduate Transport Researcher**,  *Liverpool, UK (Apr 2022 - Jun 2023)*\n**School of Environmental Science, University of Liverpool**\n\n#### **Undergraduate Researcher**,  *Suzhou, China (Jun - Sep 2021)*\n**Department of Urban Planning, Xi’an Jiaotong-Liverpool University**\n\n\n## Extracurricular Experience\n\n#### **Content Planning Board Member**,  *Philadelphia, PA (Sep 2023 - Present)*\n**Wharton Future of Cities Conference**\n\n\n## Skills & Hobbies\n\n-   Software skills: ArcGIS, R, Python, Adobe Illustrator, InDesign & Photoshop, Sketchup, AutoCAD\n-   Interests: Sustainability, hiking and photography.\n\n\n<br>\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
