@@ -31,6 +31,13 @@ listing:
       date: "2023-12-15"
       categories: [Data Analytics, Machine Learning, Prediction]
       path: projects/Predicting NJ Transit Train Delays.html
+    - title: "Economic Analysis and Plan for Kirkby Town Centre, UK"
+      image: "projects/Kirkby Town center.jpg"
+      subtitle: "SUBTITLE"
+      description: ""
+      date: "2022-05-30"
+      categories: [Data Analytics, Economic Analysis, GIS]
+      path: projects/Kirkby Town center.pdf
   sort: "date desc"
   type: grid
   categories: true
