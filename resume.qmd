@@ -14,8 +14,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-
-
 ```{r}
 #| column: screen
 
@@ -43,55 +41,53 @@ showtext_auto()
 
 ```
 
-
 ## Education
 
-#### **University of Pennsylvania**,  *Philadelphia, PA (Aug 2023 – Present)*
+#### **University of Pennsylvania**, *Philadelphia, PA (Aug 2023 -- Present)*
+
 **Master of City Planning in Spatial Analytics**
 
 -   Relevant courses: Geospatial Cloud Computing (SQL), Machine Learning in Remote Sensing (Python), Public Policy Analytics (R), Quantitative Analysis Methods (R)
 
+#### **University of Liverpool**, *Liverpool, UK*
 
-#### **University of Liverpool**,  *Liverpool, UK*
 **Bachelor of Arts in Urban Planning**
 
 -   Relevant courses: Geospatial Data Science (Python), Urban & Environmental Economics
 
-
 ## Professional Experience
 
-#### **Transport Planning and GIS Intern**,  *Liverpool, UK (Jun - Sep 2022)*
+#### **Transport Planning and GIS Intern**, *Liverpool, UK (Jun - Sep 2022)*
+
 **Mott Macdonald**
 
-#### **Urban Planning and Design Intern**,  *Suzhou, China (Jul - Aug 2021)*
-**Suzhou Planning & Design Research Institute**
+#### **Urban Planning and Design Intern**, *Suzhou, China (Jul - Aug 2021)*
 
+**Suzhou Planning & Design Research Institute**
 
 ## Research Experience
 
-#### **Geospatial Research Assistant**,  *Philadelphia, PA (Dec 2023 - Present)*
+#### **Geospatial Research Assistant**, *Philadelphia, PA (Dec 2023 - Present)*
+
 **Business and Conflict Barometer Initiative, The Wharton School**
 
-#### **Undergraduate Transport Researcher**,  *Liverpool, UK (Apr 2022 - Jun 2023)*
+#### **Undergraduate Transport Researcher**, *Liverpool, UK (Apr 2022 - Jun 2023)*
+
 **School of Environmental Science, University of Liverpool**
 
-#### **Undergraduate Researcher**,  *Suzhou, China (Jun - Sep 2021)*
-**Department of Urban Planning, Xi’an Jiaotong-Liverpool University**
+#### **Undergraduate Researcher**, *Suzhou, China (Jun - Sep 2021)*
 
+**Department of Urban Planning, Xi'an Jiaotong-Liverpool University**
 
 ## Extracurricular Experience
 
-#### **Content Planning Board Member**,  *Philadelphia, PA (Sep 2023 - Present)*
-**Wharton Future of Cities Conference**
+#### **Content Planning Board Member**, *Philadelphia, PA (Sep 2023 - Present)*
 
+**Wharton Future of Cities Conference**
 
 ## Skills & Hobbies
 
--   Software skills: ArcGIS, R, Python, Adobe Illustrator, InDesign & Photoshop, Sketchup, AutoCAD
--   Interests: Sustainability, hiking and photography.
-
+-   Technical skills: R (dplyr, tidyverse, etc.) | Python (pandas, numpy, etc.) | ArcGIS Pro, QGIS | Microsoft Excel | Adobe Illustrator & Photoshop
+-   Interests: Amateur baker, world traveling, exploring parks, hiking, photography in new cities
 
 <br>
-
-
-

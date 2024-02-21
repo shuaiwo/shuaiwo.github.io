@@ -52,13 +52,21 @@ listing:
       categories: [Data Analytics, GIS, Essay]
       path: projects/Low Traffic Neighbourhood.pdf
       
-    - title: "Existing Condition Analysis of Yeadon Neighborhood, PA"
+    - title: "Existing Condition Analysis of Yeadon Neighborhood, PA (ongoing)"
       image: "projects/Yeadon Existing Condition Presentation.png"
       subtitle: "SUBTITLE"
       description: "Presentation sample of the ongoing plan-making project for Yeadon. <br> My contribution involves transport & commuting analysis; map & visualization making."
       date: "2024-02-20"
       categories: [Data Analytics, GIS, Presentation]
       path: projects/Yeadon Existing Condition Presentation.pdf
+      
+    - title: "Examining Transit-Oriented Development in Boston, MA"
+      image: "projects/Examining Transit-Oriented Development in Boston.png"
+      subtitle: "SUBTITLE"
+      description: ""
+      date: "2023-09-29"
+      categories: [Data Analytics, Transport]
+      path: projects/Examining Transit-Oriented Development in Boston.html
       
   sort: "date desc"
   type: grid
