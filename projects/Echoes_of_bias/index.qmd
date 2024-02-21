@@ -2,8 +2,8 @@
 title: "Echoes of Bias"
 description: "Examine Challenges and Opportunities of AI in City Planning"
 author: "Shuai Wang"
-date: "2023-11-20"
-categories: [Urban Tech, AI, essay]
+date: "2023-10-20"
+categories: [Urban Tech, City Planning, Essay]
 image: "Ai.png"
 ---
 

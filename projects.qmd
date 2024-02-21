@@ -3,41 +3,63 @@ title: "Projects"
 listing:
   contents: 
     - projects
-    - title: "Geospatial Risk Prediction in Philadelphia"
+    
+    - title: "Geospatial Risk Prediction in Philadelphia, PA"
       image: "projects/risk.png"
       subtitle: "SUBTITLE"
       description: ""
       date: "2023-10-19"
       categories: [Data Analytics, Machine Learning, Prediction]
       path: "projects/Geospatial Risk Prediction in Philadelphia.html"
-    - title: "Home Repair Tax Credit Program"
+      
+    - title: "Target Limited Outreach Resources for Home Repair Tax Credit Program in Philadelphia, PA"
       image: "projects/tax.png"
       subtitle: "SUBTITLE"
       description: ""
       date: "2023-11-02"
       categories: [Data Analytics, Machine Learning, Prediction]
       path: projects/Home Repair Tax Credit Program.html
-    - title: "Indego Bike Share Prediction in Philadelphia"
+      
+    - title: "Indego Bike Share Prediction in Philadelphia, PA"
       image: "projects/bike.png"
       subtitle: "SUBTITLE"
       description: ""
       date: "2023-11-17"
       categories: [Data Analytics, Machine Learning, Prediction]
       path: projects/Indego Bike Share Prediction in Philadelphia.html
-    - title: "Predicting NJ Transit Train Delays"
+      
+    - title: "Predicting NJ Transit Train Delays around NYC"
       image: "projects/tracktrend.png"
       subtitle: "SUBTITLE"
       description: ""
       date: "2023-12-15"
       categories: [Data Analytics, Machine Learning, Prediction]
       path: projects/Predicting NJ Transit Train Delays.html
-    - title: "Economic Analysis and Plan for Kirkby Town Centre, UK"
+      
+    - title: "Socio-economic Analysis and Plan for Kirkby Town Centre, UK"
       image: "projects/Kirkby Town center.jpg"
-      subtitle: "SUBTITLE"
-      description: ""
+      subtitle: ""
+      description: "My contribution involves data analysis of democraphics, land use, retail and accessibility conditions; strategies of night-time economy and co-housing"
       date: "2022-05-30"
-      categories: [Data Analytics, Economic Analysis, GIS]
+      categories: [Data Analytics, GIS, Neighborhood Plan]
       path: projects/Kirkby Town center.pdf
+      
+    - title: "Who are Low Traffic Neighborhoods Impacting?"
+      image: "projects/Low Traffic Neighbourhood.png"
+      subtitle: "SUBTITLE"
+      description: "Data-driven Exploration of Social Equity of Low Traffic Neighborhoods in London, UK"
+      date: "2022-12-01"
+      categories: [Data Analytics, GIS, Essay]
+      path: projects/Low Traffic Neighbourhood.pdf
+      
+    - title: "Existing Condition Analysis of Yeadon Neighborhood, PA"
+      image: "projects/Yeadon Existing Condition Presentation.png"
+      subtitle: "SUBTITLE"
+      description: "Presentation sample of the ongoing plan-making project for Yeadon. <br> My contribution involves transport & commuting analysis; map & visualization making."
+      date: "2024-02-20"
+      categories: [Data Analytics, GIS, Presentation]
+      path: projects/Yeadon Existing Condition Presentation.pdf
+      
   sort: "date desc"
   type: grid
   categories: true
