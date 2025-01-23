@@ -3,7 +3,7 @@ title: "Projects"
 listing:
   contents: 
     
-    - title: "Washington Avenue Improvement Project Case Study"
+    - title: "Washington Avenue Improvement Project Case Study in Philadelphia, PA"
       image: "projects/Wash.png"
       subtitle: ""
       description: ""
