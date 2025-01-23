@@ -14,8 +14,6 @@ website:
         href: index.qmd
       - text: Projects
         href: projects.qmd
-      - text: Experience
-        href: resume.qmd
       
     right:
       #- icon: github

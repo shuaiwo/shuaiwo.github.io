@@ -2,19 +2,34 @@
 title: "Projects"
 listing:
   contents: 
-    - projects
+    
+    - title: "Spatial Estimation of Chronic Respiratory Disease Based on Geospatial Machine Learning Procedures"
+      image: "projects/PA.png"
+      subtitle: ""
+      description: ""
+      date: "2024-5-20"
+      categories: [Data Analytics, Machine Learning, Remote Sensing]
+      path: "projects/PA-CRD-2024.ipynb"
+    
+    - title: "Optimizing Bike-Sharing Operations: Insights of CitiBike in Manhattan Using Data-Driven Analysis"
+      image: "projects/citibike.png"
+      subtitle: ""
+      description: ""
+      date: "2024-12-20"
+      categories: [Mobility, Data Analytics, Machine Learning, Prediction]
+      path: "projects/Citibike project.ipynb"
     
     - title: "Geospatial Risk Prediction in Philadelphia, PA"
       image: "projects/risk.png"
-      subtitle: "SUBTITLE"
+      subtitle: ""
       description: ""
-      date: "2023-10-19"
+      date: "2023-12-1"
       categories: [Data Analytics, Machine Learning, Prediction]
       path: "projects/Geospatial Risk Prediction in Philadelphia.html"
       
     - title: "Target Limited Outreach Resources for Home Repair Tax Credit Program in Philadelphia, PA"
       image: "projects/tax.png"
-      subtitle: "SUBTITLE"
+      subtitle: ""
       description: ""
       date: "2023-11-02"
       categories: [Data Analytics, Machine Learning, Prediction]
@@ -22,7 +37,7 @@ listing:
       
     - title: "Indego Bike Share Prediction in Philadelphia, PA"
       image: "projects/bike.png"
-      subtitle: "SUBTITLE"
+      subtitle: ""
       description: ""
       date: "2023-11-17"
       categories: [Data Analytics, Machine Learning, Prediction]
@@ -30,7 +45,7 @@ listing:
       
     - title: "Predicting NJ Transit Train Delays around NYC"
       image: "projects/tracktrend.png"
-      subtitle: "SUBTITLE"
+      subtitle: ""
       description: ""
       date: "2023-12-15"
       categories: [Data Analytics, Machine Learning, Prediction]
@@ -46,23 +61,16 @@ listing:
       
     - title: "Who are Low Traffic Neighborhoods Impacting?"
       image: "projects/Low Traffic Neighbourhood.png"
-      subtitle: "SUBTITLE"
+      subtitle: ""
       description: "Data-driven Exploration of Social Equity of Low Traffic Neighborhoods in London, UK"
       date: "2022-12-01"
       categories: [Data Analytics, GIS, Essay]
       path: projects/Low Traffic Neighbourhood.pdf
-      
-    - title: "Existing Condition Analysis of Yeadon Neighborhood, PA (ongoing)"
-      image: "projects/Yeadon Existing Condition Presentation.png"
-      subtitle: "SUBTITLE"
-      description: "Presentation sample of the ongoing plan-making project for Yeadon. <br> My contribution involves transport & commuting analysis; map & visualization making."
-      date: "2024-02-20"
-      categories: [Data Analytics, GIS, Presentation]
-      path: projects/Yeadon Existing Condition Presentation.pdf
+
       
     - title: "Examining Transit-Oriented Development in Boston, MA"
       image: "projects/Examining Transit-Oriented Development in Boston.png"
-      subtitle: "SUBTITLE"
+      subtitle: ""
       description: ""
       date: "2023-09-29"
       categories: [Data Analytics, Transport]

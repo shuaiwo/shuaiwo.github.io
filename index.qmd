@@ -18,8 +18,6 @@ about:
       #href: 
 ---
 
-I'm a Master's candidate studying **City Planning** and **Spatial Data Analytics** at the University of Pennsylvania. I'm passionate about leveraging the power of data science and technology for sustainable development and business growth. My research delves into urban technology, transportation, land use and community development.
-
-Prior to Penn, I worked as a **Transport Planning and GIS** Intern and gained my Bachelor's degree in Urban Planning at the University of Liverpool, UK. These experiences honed my skills in **analytical thinking** and **problem-solving**, laying the groundwork for my academic and career pursuits.
+I'm a Master's candidate studying **City Planning** and **Spatial Data Analytics** at the University of Pennsylvania. I'm passionate about leveraging the power of data science and technology for sustainable development and business growth. My research delves into urban technology, transportation and land use.
 
 **Travelling** has been a significant part of my life. Backpacking across 11 countries in Europe wasn't just an adventure; it was an immersive study into the fabric of different societies. Seeing firsthand how cultures, lifestyles, food and languages interact and blend across different places, I'm more determined to uncover the hidden dynamics that drive the development of cities, businesses and human behaviors.

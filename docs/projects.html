@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Shuai Wang - Projects</title>
+<title>Projects – Shuai Wang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,17 +37,22 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-0626ff4d7a71b55c8707dcae1d04a9b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-55c119cbca0847612369e51c8a5413ad.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,8 +61,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -70,9 +77,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-subtitle','listing-description','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-image","listing-subtitle","listing-description","listing-date","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -90,8 +97,35 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -99,43 +133,39 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Shuai Wang</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" rel="" target="" aria-current="page">
- <span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./resume.html" rel="" target="">
- <span class="menu-text">Experience</span></a>
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/shuaiws" rel="" target=""><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/shuaiws"> <i class="bi bi-linkedin" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -148,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -161,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="City Planning">City Planning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Analytics">Data Analytics <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Essay">Essay <span class="quarto-category-count">(2)</span></div><div class="category" data-category="GIS">GIS <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Neighborhood Plan">Neighborhood Plan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Prediction">Prediction <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Presentation">Presentation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Transport">Transport <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Urban Tech">Urban Tech <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="RGF0YSUyMEFuYWx5dGljcw==">Data Analytics <span class="quarto-category-count">(9)</span></div><div class="category" data-category="RXNzYXk=">Essay <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R0lT">GIS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(6)</span></div><div class="category" data-category="TW9iaWxpdHk=">Mobility <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmVpZ2hib3Job29kJTIwUGxhbg==">Neighborhood Plan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJlZGljdGlvbg==">Prediction <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UmVtb3RlJTIwU2Vuc2luZw==">Remote Sensing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHJhbnNwb3J0">Transport <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -172,59 +202,141 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Data Analytics,GIS,Presentation" data-listing-date-sort="1708405200000">
-<a href="projects/Yeadon Existing Condition Presentation.pdf" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="TW9iaWxpdHklMkNEYXRhJTIwQW5hbHl0aWNzJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDUHJlZGljdGlvbg==" data-listing-date-sort="1734670800000">
+<a href="./projects/Citibike project.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="projects/Yeadon Existing Condition Presentation.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="projects/citibike.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Existing Condition Analysis of Yeadon Neighborhood, PA (ongoing)
+Optimizing Bike-Sharing Operations: Insights of CitiBike in Manhattan Using Data-Driven Analysis
 </h5>
+<div class="card-subtitle listing-subtitle">
+
+</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analytics'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('TW9iaWxpdHk='); return false;">
+Mobility
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5dGljcw=='); return false;">
 Data Analytics
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('GIS'); return false;">
-GIS
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
+Machine Learning
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Presentation'); return false;">
-Presentation
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlZGljdGlvbg=='); return false;">
+Prediction
 </div>
 </div>
 <div class="card-text listing-description">
-Presentation sample of the ongoing plan-making project for Yeadon. <br> My contribution involves transport &amp; commuting analysis; map &amp; visualization making.
+
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Feb 20, 2024
+Dec 20, 2024
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Data Analytics,Machine Learning,Prediction" data-listing-date-sort="1702616400000">
+<div class="g-col-1" data-index="1" data-categories="RGF0YSUyMEFuYWx5dGljcyUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ1JlbW90ZSUyMFNlbnNpbmc=" data-listing-date-sort="1716177600000">
+<a href="./projects/PA-CRD-2024.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="projects/PA.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Spatial Estimation of Chronic Respiratory Disease Based on Geospatial Machine Learning Procedures
+</h5>
+<div class="card-subtitle listing-subtitle">
+
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5dGljcw=='); return false;">
+Data Analytics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
+Machine Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UmVtb3RlJTIwU2Vuc2luZw=='); return false;">
+Remote Sensing
+</div>
+</div>
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 20, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="RGF0YSUyMEFuYWx5dGljcyUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ1ByZWRpY3Rpb24=" data-listing-date-sort="1702962000000">
+<a href="projects/Geospatial Risk Prediction in Philadelphia.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="projects/risk.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Geospatial Risk Prediction in Philadelphia, PA
+</h5>
+<div class="card-subtitle listing-subtitle">
+
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5dGljcw=='); return false;">
+Data Analytics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
+Machine Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlZGljdGlvbg=='); return false;">
+Prediction
+</div>
+</div>
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 19, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="RGF0YSUyMEFuYWx5dGljcyUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ1ByZWRpY3Rpb24=" data-listing-date-sort="1702616400000">
 <a href="projects/Predicting NJ Transit Train Delays.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="projects/tracktrend.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="projects/tracktrend.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Predicting NJ Transit Train Delays around NYC
 </h5>
+<div class="card-subtitle listing-subtitle">
+
+</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analytics'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5dGljcw=='); return false;">
 Data Analytics
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
 Machine Learning
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Prediction'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlZGljdGlvbg=='); return false;">
 Prediction
 </div>
 </div>
@@ -240,24 +352,27 @@ Dec 15, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Data Analytics,Machine Learning,Prediction" data-listing-date-sort="1700197200000">
+<div class="g-col-1" data-index="4" data-categories="RGF0YSUyMEFuYWx5dGljcyUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ1ByZWRpY3Rpb24=" data-listing-date-sort="1700197200000">
 <a href="projects/Indego Bike Share Prediction in Philadelphia.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="projects/bike.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="projects/bike.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Indego Bike Share Prediction in Philadelphia, PA
 </h5>
+<div class="card-subtitle listing-subtitle">
+
+</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analytics'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5dGljcw=='); return false;">
 Data Analytics
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
 Machine Learning
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Prediction'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlZGljdGlvbg=='); return false;">
 Prediction
 </div>
 </div>
@@ -273,24 +388,27 @@ Nov 17, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Data Analytics,Machine Learning,Prediction" data-listing-date-sort="1698897600000">
+<div class="g-col-1" data-index="5" data-categories="RGF0YSUyMEFuYWx5dGljcyUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ1ByZWRpY3Rpb24=" data-listing-date-sort="1698897600000">
 <a href="projects/Home Repair Tax Credit Program.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="projects/tax.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="projects/tax.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Target Limited Outreach Resources for Home Repair Tax Credit Program in Philadelphia, PA
 </h5>
+<div class="card-subtitle listing-subtitle">
+
+</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analytics'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5dGljcw=='); return false;">
 Data Analytics
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
 Machine Learning
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Prediction'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlZGljdGlvbg=='); return false;">
 Prediction
 </div>
 </div>
@@ -306,90 +424,24 @@ Nov 2, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Urban Tech,City Planning,Essay" data-listing-date-sort="1697774400000" data-listing-file-modified-sort="1708483383517" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
-<a href="./projects/Echoes_of_bias/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./projects/Echoes_of_bias/Ai.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Echoes of Bias
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Urban Tech'); return false;">
-Urban Tech
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('City Planning'); return false;">
-City Planning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Essay'); return false;">
-Essay
-</div>
-</div>
-<div class="card-text listing-description">
-Examine Challenges and Opportunities of AI in City Planning
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Shuai Wang
-</div>
-<div class="listing-date">
-Oct 20, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Data Analytics,Machine Learning,Prediction" data-listing-date-sort="1697688000000">
-<a href="projects/Geospatial Risk Prediction in Philadelphia.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="projects/risk.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Geospatial Risk Prediction in Philadelphia, PA
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analytics'); return false;">
-Data Analytics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
-Machine Learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Prediction'); return false;">
-Prediction
-</div>
-</div>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 19, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Data Analytics,Transport" data-listing-date-sort="1695960000000">
+<div class="g-col-1" data-index="6" data-categories="RGF0YSUyMEFuYWx5dGljcyUyQ1RyYW5zcG9ydA==" data-listing-date-sort="1695960000000">
 <a href="projects/Examining Transit-Oriented Development in Boston.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="projects/Examining Transit-Oriented Development in Boston.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="projects/Examining Transit-Oriented Development in Boston.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Examining Transit-Oriented Development in Boston, MA
 </h5>
+<div class="card-subtitle listing-subtitle">
+
+</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analytics'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5dGljcw=='); return false;">
 Data Analytics
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Transport'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VHJhbnNwb3J0'); return false;">
 Transport
 </div>
 </div>
@@ -405,24 +457,27 @@ Sep 29, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Data Analytics,GIS,Essay" data-listing-date-sort="1669870800000">
+<div class="g-col-1" data-index="7" data-categories="RGF0YSUyMEFuYWx5dGljcyUyQ0dJUyUyQ0Vzc2F5" data-listing-date-sort="1669870800000">
 <a href="projects/Low Traffic Neighbourhood.pdf" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="projects/Low Traffic Neighbourhood.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="projects/Low Traffic Neighbourhood.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Who are Low Traffic Neighborhoods Impacting?
 </h5>
+<div class="card-subtitle listing-subtitle">
+
+</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analytics'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5dGljcw=='); return false;">
 Data Analytics
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('GIS'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('R0lT'); return false;">
 GIS
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Essay'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('RXNzYXk='); return false;">
 Essay
 </div>
 </div>
@@ -438,24 +493,27 @@ Dec 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="Data Analytics,GIS,Neighborhood Plan" data-listing-date-sort="1653883200000">
+<div class="g-col-1" data-index="8" data-categories="RGF0YSUyMEFuYWx5dGljcyUyQ0dJUyUyQ05laWdoYm9yaG9vZCUyMFBsYW4=" data-listing-date-sort="1653883200000">
 <a href="projects/Kirkby Town center.pdf" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="projects/Kirkby Town center.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="projects/Kirkby Town center.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Socio-economic Analysis and Plan for Kirkby Town Centre, UK
 </h5>
+<div class="card-subtitle listing-subtitle">
+
+</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Analytics'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5dGljcw=='); return false;">
 Data Analytics
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('GIS'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('R0lT'); return false;">
 GIS
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Neighborhood Plan'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('TmVpZ2hib3Job29kJTIwUGxhbg=='); return false;">
 Neighborhood Plan
 </div>
 </div>
@@ -511,18 +569,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -554,11 +601,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -568,8 +652,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -581,7 +674,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -625,6 +840,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -650,6 +866,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -710,6 +952,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
