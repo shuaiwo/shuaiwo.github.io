@@ -3,6 +3,14 @@ title: "Projects"
 listing:
   contents: 
     
+    - title: "Washington Avenue Improvement Project Case Study"
+      image: "projects/Wash.png"
+      subtitle: ""
+      description: ""
+      date: "2024-5-10"
+      categories: [Transportation, Research, Report]
+      path: "projects/Washington Avenue Improvement Project Case Study.pdf"    
+
     - title: "Spatial Estimation of Chronic Respiratory Disease Based on Geospatial Machine Learning Procedures"
       image: "projects/PA.png"
       subtitle: ""
